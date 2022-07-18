@@ -3,12 +3,12 @@ public class Main {
 
         int price;
         price = 22000;
+        int rub;
+        rub = 20;
         int miles;
-        miles = 20;
-        int X;
-        X = price/miles;
+        miles = price / rub;
 
-        System.out.println (X);
+        System.out.println(miles);
         // Объявляете переменные для входных данных и
         // параметров программы: одну для хранения
         // стоимости билета, другую для хранения количества
